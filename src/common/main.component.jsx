@@ -1,3 +1,4 @@
+// ./src/common/main.component.jsx
 import React, {Component} from 'react';
 
 class Main extends Component {
@@ -23,16 +24,6 @@ class Main extends Component {
                 </div>
             </div>
         );
-        render(
-    <Router>
-        <Route component={Main} history={browserHistory}>
-            <Route path="/" component={Home}/>
-            <Route path="/cars" component={Car}/>
-            <Route path="/about" component={About}/>
-        </Route>
-    </Router>,
-    document.getElementById('container')
-);
     }
 }
 
